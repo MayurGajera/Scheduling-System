@@ -7,7 +7,7 @@ A simple scheduling and booking system built with React (frontend) and Node.js/E
 ## 1. Cloning the Repository
 
 ```bash
-git clone https://github.com/your-username/Scheduling-System.git
+git clone https://github.com/MayurGajera/Scheduling-System.git
 cd Scheduling-System
 ```
 
