@@ -1,0 +1,43 @@
+/* Base styles for AvailabilityPage */
+.availability-container {
+  width: 90vw;
+  height: calc(100vh - 56px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.availability-card {
+  width: 100%;
+  max-width: 450px;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 576px) {
+  .availability-container {
+    padding: 1rem;
+    height: auto;
+  }
+
+  .availability-card {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .availability-card h4 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+/* Medium Screen Tweaks */
+@media (min-width: 577px) and (max-width: 768px) {
+  .availability-card {
+    max-width: 90%;
+  }
+}
